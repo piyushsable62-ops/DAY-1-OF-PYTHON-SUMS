@@ -1,0 +1,16 @@
+// GREATEST OF 4 
+x = int(input("enter number :"))
+y = int(input("enter number :"))
+z = int(input("enter number :"))
+w = int(input("enter number :"))
+
+if(x>y and x>z and x > w):
+    print("the grestest is ", x)
+elif(x<y and x>z and x> w):
+    print("the grestest is ", y)
+elif(z>y and x<z and z> w):
+    print("the grestest is ", z)
+
+else:
+    print("grestest is ",w)    
+
