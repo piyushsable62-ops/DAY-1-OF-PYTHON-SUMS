@@ -1,0 +1,25 @@
+f = open("poem.txt")
+data = f.read()
+
+if("hello" in data):
+    print("op present")
+
+else:
+    print("op not present")    
+f.close()    
+with open("poem.txt", "r") as f:
+    data = f.read()
+
+print(repr(data))
+
+if "hello" in data:
+    print("op present")
+else:
+    print("op not present")
+with open("poem.txt", "r") as f:
+    data = f.read()
+
+print("CONTENT:")
+print(repr(data))
+
+print("CHECK:", "hello" in data)
