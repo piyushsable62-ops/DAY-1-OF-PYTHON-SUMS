@@ -1,0 +1,14 @@
+class Caalculator:
+    def __init__(self,n):
+        self.n = n 
+    def sqaure(self):
+        print(f"square is {self.n*self.n}")    
+    def cubic(self):
+        print(f"cubic is {self.n*self.n*self.n}")    
+    def root(self):
+        print(f"root is {self.n**1/2}")  
+
+n = Caalculator(4)
+n.cubic()
+n.root()
+n.sqaure()          
