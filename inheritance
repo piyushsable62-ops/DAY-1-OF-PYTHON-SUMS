@@ -22,3 +22,33 @@ c2 = Complex(3, 4)
 
 print("Addition:", c1 + c2)
 print("Multiplication:", c1 * c2)
+
+
+
+multilevel inhertitance
+class employee:
+    company = "google"
+    name = "piyush"
+    def see(self):
+        print(f"{self.name} is placed in {self.company}")
+
+class coder:
+    language = "pythonnjava"
+    def printlanguage(self):
+        print(f"{self.name} know {self.language} language")
+
+
+class programmer(employee,coder):
+    company = "faang"
+    name = "piyush"
+    def show(self):
+        print(f"{self.name} placed in {self.company}")
+
+a = employee()
+b = programmer()
+b.show()
+b.printlanguage()
+b.see()
+
+
+
