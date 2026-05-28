@@ -25,7 +25,10 @@ print("Multiplication:", c1 * c2)
 
 
 
-multilevel inhertitance
+ # multiple and multilevel inhertitance
+
+
+
 class employee:
     company = "google"
     name = "piyush"
@@ -49,6 +52,28 @@ b = programmer()
 b.show()
 b.printlanguage()
 b.see()
+
+
+
+
+
+3rd code
+
+
+# multilevel inheritance
+class employee():
+    a = 1
+class coder(employee):
+    b = 2
+class programme(coder):
+    c= 3    
+p = employee()
+print(p.a)
+p = coder()
+print(p.a,p.b)
+p = programme()
+print(p.a,p.b,p.c)
+
 
 
 
