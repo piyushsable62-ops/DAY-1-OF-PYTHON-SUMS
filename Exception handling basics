@@ -1,0 +1,16 @@
+
+
+try:
+    a = int(input("ENTER NUMBER : "))
+    print(a)
+
+except Exception as e:
+    print("put a valid number ")
+    print(e)
+
+else:     #works when try is call without error
+    print("HELLO")
+finally:   # works everytime is error is there or not ...finally is more efficent is functons
+    print("nice:")
+
+   
