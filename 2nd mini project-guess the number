@@ -1,0 +1,13 @@
+import  random 
+n = random.randint(1,100)
+noofgusses = 0 
+a = 0
+while(a!=n):
+   noofgusses +=1
+   a = int(input("Guess the number: "))
+   if(a>n):
+        print(" pls guess lower number")
+   else:
+        print("pls guess higher number")    
+
+print(f"youe guess is correct and no of gusses are {noofgusses}")         
